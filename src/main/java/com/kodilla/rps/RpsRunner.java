@@ -27,6 +27,5 @@ public class RpsRunner {
 
     public void assessTheScore() {
         System.out.println("Human won: " + numberOfVictoriesHuman + " times. " + "Computer: " + numberOfVictoriesComputer);
-        rps();
     }
 }

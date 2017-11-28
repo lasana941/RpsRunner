@@ -17,6 +17,7 @@ public class Logic {
                 System.out.println(areYouCertain);
                 if (!scan.next().equals("n")) {
                     rps.assessTheScore();
+                    rps.rps();
                 }
                 whatToDo = askRPS();
             }
